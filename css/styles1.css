@@ -1,0 +1,110 @@
+html{
+	box-sizing: border-box;
+}
+body {
+	background-color: #4d4d4d;
+	text-align: center;
+}
+h1, h2 {
+	font-family: 'Amatic SC', cursive;
+	font-size: 35px;
+	letter-spacing: 1.5px;
+	color: darkgrey;
+	text-align: center;
+	position: fixed;
+	top: 420px;
+	left: 65px;	
+}
+p {
+	font-family: 'Titillium Web', sans-serif;
+	position: fixed;
+	left: 65px;
+	top: 490px;
+	font-size: 18px;
+}
+header {
+	font-family: 'Titillium Web', sans-serif;
+	padding: 0px;
+	position: relative;
+	color: white;
+	font-size:18px;
+}
+
+a{ 
+	color: white; 
+}
+
+a:hover {	
+	/*text-decoration: none;*/
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d24dff;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    text-shadow: 2px 2px grey;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.text-box {
+    font-family: 'Titillium Web', sans-serif;
+    position: fixed;
+    top: 300px;
+    left: 500px;
+    float: center;
+    background-position:500px 300px;
+    width: 25%;
+    padding: 5px;
+    background-color: #4d4d4d;
+    color: white;
+    text-shadow: 1px 1px grey;
+    font-size: 28px;
+    letter-spacing: 3px;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+}
