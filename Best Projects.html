@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>School Portfolio || Su Yeong Park</title>
+    <meta charset="UTF-8-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Changa" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles3.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+    <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li class="dropdown">
+            <a href="#">About ME</a>
+            <div class="dropdown-content">
+                <a href="about me.html">About ME</a>
+                <a href="work experience.html">Work Experience</a>
+                <a href="education.html">Education</a>
+            </div>
+        </li>
+          <li class="dropdown">
+            <a href="#" class="dropbtn">Projects</a>
+            <div class="dropdown-content">
+                <a href="projects.html">Projects</a>
+                <a href="best projects.html">Best projects</a>
+            </div>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+    <!-- Body -->
+    <main>
+    <div class="description">
+        <h1>My Best School Projects</h1>
+        <h2>Programming Bootcamp Portfolio</h2>
+<!-- image slides show -->
+    <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 5</div>
+      <p><img src="pictures/proj_img_1.jpg" style="height:500px"></p>
+      <div class="text">On first class I made a design using Processing</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 5</div>
+      <p><img src="pictures/proj_img_2.jpg" style="height:500px"></p>
+      <div class="text">Firework which is responsive with user interface</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 5</div>
+      <p><img src="pictures/proj_img_3.jpg" style="height:500px"></p>
+      <div class="text">The screen when you lose the game I made</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 5</div>
+      <p><img src="pictures/proj_img_4.jpg" style="height:500px"></p>
+      <div class="text">Basketball_____game</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 5</div>
+      <p><img src="pictures/proj_img_5.jpg" style="height:500px"></p>
+      <div class="text">It moves automatically</div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center; padding-bottom: 30px;">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+<!-- script -->
+    <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+<!-- image slides show ends -->
+    </div>
+    </main>
+</body>
+</html>
+
