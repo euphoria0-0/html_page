@@ -1,3 +1,5 @@
+# Welcome to euphoria!
+
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
