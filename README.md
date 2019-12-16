@@ -1,4 +1,3 @@
-
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
@@ -21,20 +20,20 @@ body {
 	<header>
 	<nav>
 		<ul>
-		  <li><a href="home.html">Home</a></li>
+		  <li><a href="Home.html">Home</a></li>
 		  <li class="dropdown">
 		  	<a href="#">About ME</a>
 		  	<div class="dropdown-content">
-		  		<a href="about me.html">About ME</a>
-				<a href="work experience.html">Work Experience</a>
-				<a href="education.html">Education</a>
+		  		<a href="About Me.html">About ME</a>
+				<a href="Work Experience.html">Work Experience</a>
+				<a href="Education.html">Education</a>
 			</div>
 		</li>
 		  <li class="dropdown">
 		    <a href="#" class="dropbtn">Projects</a>
 		    <div class="dropdown-content">
-		     	<a href="projects.html">Projects</a>
-				<a href="best projects.html">Best projects</a>
+		     	<a href="Projects.html">Projects</a>
+				<a href="Best projects.html">Best projects</a>
 		    </div>
 		  </li>
 		  <li><a href="contact.html">Contact</a></li>
