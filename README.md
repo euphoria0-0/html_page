@@ -1,5 +1,3 @@
-# Welcome to euphoria!
-
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
@@ -45,7 +43,7 @@ body {
 	<!-- Body -->
 	<div class="text-box"> SU YEONG PARK </div>
     <h2>School Portfolio</h2>
-    <p>UXD Skills Lab: Digital skills HTML/CSS</p>
+    <p>test pages</p>
 
 </body>
 </html>
