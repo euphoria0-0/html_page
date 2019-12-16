@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-	<title>School Portfolio || Su Yeong Park</title>
+	<title>School Portfolio - Su Yeong Park</title>
 	<meta charset="UTF-8-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
